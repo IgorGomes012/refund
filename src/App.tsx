@@ -19,10 +19,10 @@ export default function App() {
 
   return (
     <div className="w-screen h-screen bg-gray-400 flex flex-col items-center text-gray-100">
-      <main>
+      <main className="p-3 w-full md:w-auto">
         <img src={logoSvg} alt="Logo" className="my-8" />
 
-        <section className="flex gap-5 pb-7">
+        <section className="flex gap-5 pb-7 flex-col lg:flex-row ">
           <Form onAddExpense={addExpense} />
           <ExpenseList expenses={expenses} onRemove={onRemove} />
         </section>

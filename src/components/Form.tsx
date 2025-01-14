@@ -43,7 +43,7 @@ export function Form({ onAddExpense }: Props) {
   }
 
   return (
-    <form className=" bg-gray-500 rounded-xl max-w-[462px] h-fit flex flex-col p-10">
+    <form className=" bg-gray-500 rounded-xl lg:max-w-[462px] h-fit flex flex-col p-10">
       <h1 className="text-xl font-bold">Solicitação de reembolso</h1>
 
       <p className="text-sm text-gray-200 mt-3 mb-10">
